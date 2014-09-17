@@ -1,0 +1,335 @@
+*{
+  margin:0;
+  padding:0;
+  text-decoration: none;
+}
+
+ a { 
+    text-decoration: none; 
+   } 
+ a:hover { 
+    text-decoration: none;
+ }
+ 
+ input:focus {
+background: #eaeaea;
+}
+
+
+ 
+ h2{
+ color:#787878;
+ font-family: Georgia, "Times New Roman", Times, serif;
+ font-style:italic;
+ font-size:1em;
+ background-color:white;
+ display:inline-block;
+ padding-right:10px;
+ }
+ 
+ .h2-layout{
+ background: url("../img/pattern.png") repeat-x; 
+ margin-top:20px;
+ margin-bottom:22px;
+    }
+	
+  #h2-layout-ft{
+  background: url("../img/pattern_footer.png") repeat-x; 
+ margin-top:20px;
+ margin-bottom:22px;
+ padding:0;
+    }
+	
+	 
+h3{
+font-size:0.95em;
+color:#444444;
+font-weight:normal;
+font-family:'neue';
+margin-bottom:16px;
+}
+ 
+p, figcaption{
+font-size:1em;
+color:#444444;
+font-family: Arial, Helvetica, sans-serif;
+
+}
+ 
+ 
+body{
+background: url("../img/bg.png") repeat-x,
+url("../img/bgdown.png") bottom repeat-x;
+background-color: #efefef;
+}
+
+
+#wrapper	{
+width: 980px;
+margin: 0 auto; 
+height:auto;
+min-height:100%;
+}
+
+  
+header{
+width:100%;
+height:129px;
+padding-top:35px;
+padding-left:15px;
+}
+
+@font-face {
+font-family: 'bram';
+src: url('../fonts/Fertigo_PRO-webfont.ttf');
+}
+
+@font-face {
+font-family:'neue';
+src: url('../fonts/HelveticaNeueCyr-Roman.otf');
+}
+
+.logo{
+font-family:'bram';
+color:#f9f9f9;
+font-size: 2em;
+}
+
+nav.topmenu{
+width:100%;
+height:35px;
+min-height:100%;
+}
+
+nav.topmenu ul li{
+display:inline-block;
+padding-right:10px;
+}
+
+
+.topmenu{
+padding-top:5px;
+
+}
+
+.topmenu img{
+padding-bottom:1px; 
+padding-left:2px;
+}
+
+ .topmenu li:first-of-type{
+border:none;
+}
+
+
+.mainmenu{
+-moz-border-radius: 5px 5px 0 0;
+  -webkit-border-radius: 5px 5px 0 0;
+  border-radius: 5px 5px 0 0;
+  background-color:rgba(0,0,0,.2);
+}
+
+.separator{
+float:right; 
+padding-right:5px;
+ padding-top:5px;
+}
+
+nav.topmenu span{
+color:#787878;
+font-family: Georgia, "Times New Roman", Times, serif;
+font-style:italic;
+font-size:0.95em;
+
+}
+
+.tp li{
+border-left: solid 1px #393939;
+padding-left:10px;
+}
+
+
+#floater{
+float:right;
+}
+
+ul.mainmenu span{
+
+color:#4f4f4f;
+font-family: Georgia, "Times New Roman", Times, serif;
+font-style:italic;
+font-size:0.9em;
+}
+
+.mainmenu h1{
+ font-family: 'neue'; 
+ font-size: 1.05em;
+ color:#ededed;
+ font-weight:normal; 
+ font-style:normal;
+ }
+
+.mainmenu{
+width:100%;
+height:55px;
+min-height:100%;
+}
+
+.mainmenu li{
+display:inline-block;
+/* vertical-align:middle; */
+float:left;
+width:20%;
+padding:5px 10px;
+}
+
+
+#wr{
+background-color:white;
+padding-left:25px;
+padding-right:25px;
+overflow:hidden;
+padding-bottom:30px;
+padding-top:15px;
+height:auto;
+}
+
+main {
+height:2000px;
+background-color:white;
+margin-right:345px;
+}
+
+
+
+
+.rightcol{
+width:326px;
+background-color:white;
+float:right;
+height:800px;
+padding-left:25px;
+margin-left:5px;
+border-left: solid 1px #efefef;
+
+}
+
+section.roulette{
+background-color:beige;
+height:244px;
+margin-bottom:30px;
+}
+
+
+.decorline{
+width:100%;
+background: url("../img/pattern.png") repeat-x;
+height:15px;
+margin-bottom:15px;
+}
+
+.blogpost{
+float:left;
+width:270px;
+height:350px;
+margin-top: 35px;
+margin-bottom: 35px;
+margin-right:20px;
+}
+.blogpost-pic{
+border:double 5px #efefef;
+margin-bottom:16px;
+
+}
+
+#date{
+color:#4f4f4f;
+font-family: Georgia, "Times New Roman", Times, serif;
+font-style:italic;
+font-size:0.8em;
+}
+
+.date-com{
+margin-bottom:16px;
+}
+
+
+
+footer 
+ 
+ { 
+ width:100%;
+   clear:both;
+  }
+  
+ #spanish span{
+  line-height:20px;
+  display:block;
+  border-bottom: solid 1px gray;
+  font-family: 'neue'; 
+ font-size: 1em;
+ color:darkgrey;
+ padding: 10px 0;
+  
+  }
+ 
+/*  .col2{/*хуета!!!! что то сделать 
+ font-family: 'neue'; 
+ font-size: 1em;
+ color:darkgrey;
+ padding: 10px 0;
+ }
+   */
+  
+  .layout div{
+  padding: 10px 15px;
+  }
+
+.downmenu{
+/* height: 410px; */
+min-height:100%; 
+overflow:hidden;
+background-image: url("../img/footerbg.png") ;
+}
+ address{
+ height:50px;
+ width:100%
+
+ }
+ 
+ 
+footer h2{
+background-color:transparent;
+}
+ 
+ .layout { 
+ overflow: hidden;
+ padding-top:25px;
+ padding-bottom:30px;
+ 
+ }
+   .rubber {
+   margin-right: 203px;
+   }
+
+   .recent_ft {
+   width: 33%; 
+   float: left; 
+   }
+   
+   .comments_ft {
+   width: 35%; 
+   float: left; 
+   }
+   
+   .about_ft {
+   width: 31%; 
+   float: left; 
+   }
+   
+   .logo_ft   { 
+   width: 210px; 
+   float: right;  
+   margin-top: 15px; /* magic number! */
+   }
+ 
