@@ -4,58 +4,200 @@
   <meta charset="utf-8">
 <meta http-equiv= "X-UA-Compatible" content="IE=edge">
 
+
 <title> Bramble </title>
+
+<link href='http://fonts.googleapis.com/css?family=Open+Sans&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
+
+<link href="img/favicon.png" rel="shortcut icon" type="image/x-icon" />
 
 <link rel="stylesheet" href="style/clear.css"/>
 <link rel="stylesheet" href="style/style.css"/>
-<script src="jquery-2.0.2.min.js"></script>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+
+<link  href="http://fotorama.s3.amazonaws.com/4.6.2/fotorama.css" rel="stylesheet"> 
+<script src="http://fotorama.s3.amazonaws.com/4.6.2/fotorama.js"></script> 
+
 <!--[if lt IE 9]>
 <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
 <![endif]-->
+
+
+
 </head>
 
 <body>
-<div id="wrapper">
-<nav class="topmenu">
-<span class="topmenu" id="floater">Subscribe by <a href="">RSS</a> or <a href="">Email</a> for updates!</span>
-<ul class="tp">
-<li><a href=""><span>News <img src="img/arrow.png"></span></a></li>
-<li><a href=""><span>Articles <img src="img/arrow.png"></span></a></li>
-<li><a href=""><span>Shop <img src="img/arrow.png"></span></a></li>
-<li><a href=""><span>Forum</span></a></li>
-<li><a href=""><span>Contact</span></a></li>
-</ul>
+<div class="wrapper">
+<nav class="topbar">
+<span class="floater">Subscribe by <a href="">RSS</a> or <a href="">Email</a> for updates!</span>
+<ul class="topmenu">
+ 
+ <li>
+  <a href=""><span>News <img src="img/arrow.png"></span></a>
+   <ul>
+    <li><a href=""><span>Politics</span></a></li>
+	 <li><a href=""><span>Celebrity</span></a></li>
+	<li><a href=""><span>Fashion</span></a></li>
+	
+	</ul>
+ </li>
+ 
+ <li>
+  <a href=""><span>Articles <img src="img/arrow.png"></span></a>
+  <ul>
+    <li><a href=""><span>Latest</span></a></li>
+	 <li><a href=""><span>Literature</span></a></li>
+	<li><a href=""><span>Math</span></a></li>
+	<li><a href=""><span>Programming</span></a></li>
+	
+	</ul>
+ </li>
+ 
+ <li>
+  <a href=""><span>Shop <img src="img/arrow.png"></span></a>
+  <ul>
+    <li><a href=""><span>Clothes</span></a></li>
+	 <li><a href=""><span>Electronics</span></a></li>
+	<li><a href=""><span>Books</span></a></li>
+	<li><a href=""><span>For kids</span></a></li>
+	<li><a href=""><span>For pets</span></a></li>
+	
+	</ul>
+ </li>
 
+ <li>
+  <a href=""><span>Forum</span></a>
+ </li>
+ 
+ <li>
+  <a href=""><span>Contact us!</span></a>
+ 
+ </li>
+</ul>
 </nav>
+
 <header>
-<span class="logo">Bramble</span>
+<a href="index.html"><span class="logo">Bramble</span></a>
+<span class="subheading-logo">the juicy web</span>
 </header>
-<nav  class="clearfix" role="navigation">
+
+<nav  class="clearfix mainmenu" role="navigation">
+
 <ul class="mainmenu">
-<li><a href=""><span><img src="img/separator.png" class="separator"/><h1>World</h1>What's going on </span></a></li>
-<li><a href=""><span><img src="img/separator.png" class="separator"/><h1>Fashion</h1> Such style! Much wow!</span></a></li>
-<li><a href=""><span><img src="img/separator.png" class="separator"/><h1>Geek</h1> Gadgets and events</span></a></li>
-<li><a href=""><span><img src="img/separator.png" class="separator"/><h1>Kids</h1>Baby shower</span></a></li>
-<li><a href=""><span><h1>FAQ</h1> What's it all about?</span></a></li>
+ <li>
+  <a href="">
+    <div><img src="img/separator.png" class="separator"/>
+	 <span>World</span>
+	  What's going on 
+	 </div>
+	</a>
+	<ul class="subm">
+      <li><a href=""><div>Russia</div></a>
+	  </li>
+	  <li><a href=""><div>Europe</div></a>
+	  </li>
+	  <li><a href=""><div>United States</div></a>
+	  </li>
+	  <li><a href="" ><div>Asia</div></a>
+	  </li>
+     </ul>
+ </li>
+ 
+ <li>
+  <a href="">
+  <div><img src="img/separator.png" class="separator"/>
+   <span>Fashion</span> 
+    Such style! Much wow!
+   </div>
+  </a>
+     <ul class="subm">
+      <li><a href=""><div>Trends</div></a>
+	  </li>
+	  <li><a href=""><div>Recent Looks</div></a>
+	  </li>
+	  <li><a href=""><div>Designers</div></a>
+	  </li>
+	      </ul>
+  </li>
+  
+ <li>
+  <a href="">
+  <div><img src="img/separator.png" class="separator"/>
+   <span>Geek</span>
+    Gadgets and events
+  </div></a>
+  <ul class="subm">
+      <li><a href=""><div>Comic books</div></a>
+	  </li>
+	  <li><a href=""><div>Games</div></a>
+	  </li>
+	  <li><a href=""><div>Gadgets</div></a>
+	  </li>
+	  <li><a href="" ><div>Events</div></a>
+	  </li>
+     </ul>
+ </li>
+ 
+ <li>
+  <a href="">
+  <div><img src="img/separator.png" class="separator"/>
+   <span>Kids</span>
+    Baby shower
+  </div></a>
+  <ul class="subm">
+      <li><a href=""><div>Newborn care</div></a>
+	  </li>
+	  <li><a href=""><div>Games</div></a>
+	  </li>
+	  <li><a href=""><div>Books</div></a>
+	  </li>
+	  </ul>
+ </li>
+ 
+ <li>
+  <a href=""><div>
+   <span>FAQ</span>
+    What's it all about?
+  </div></a>
+ </li>
+ 
 </ul>
 
 </nav>
-<div id="wr">
+<div class="wr">
 <div class="decorline"></div>
-<section class="roulette">
-</section>
+
+
+
+<div class="roulette">
+<div class="fotorama">
+     
+  <img src="img/rou1.png">
+  <img src="img/rou2.png">
+  <img src="img/rou3.png">
+</div>
+</div>
+
+
 <aside class="rightcol">
-<form>
+
+ <form>
   <input style="width:100%; padding:5px" name="q" type="text" placeholder="to search, type and hit enter">
-  </form>
+ </form>
+  
   <div class="h2-layout">
+  
   <h2>Advertisement</h2>
+  
   </div>
+  
   <img src="img/ads.png">
-   <div class="h2-layout">
+  
+  <div class="h2-layout">
+
   <h2>Sponsors</h2>
   </div>
-  <figure id="floater">
+  <figure class="floater">
   <img src="img/cat1.jpg" alt="Mr. Cat" width="140" height="140"  style="border:solid 5px #f9f9f9">
   <figcaption>Mr. Cat</figcaption>
   </figure>
@@ -64,124 +206,181 @@
   <figcaption>Mrs. Cat</figcaption>
   </figure>
 </aside>
-<main class="clearfix">
-<section class="blogpost">
+
+
+
+
+<main class="clearfix" style="overflow:hidden">
+
+
+
+<section class="announce">
+<div class="h2-layout">
+<h2>This is a public service announcement</h2>
+</div>
+<section class="date-com">
+<span class="date">
+28 july, 2014
+</span>
+</section>
+<figure class="floater">
+<img class="blogpost-pic" src="img/ano.png" alt="cotya">
+</figure>
+<p>
+Hey there where ya goin', not exactly knowin', who says you have to call just one place home. He's goin' everywhere, B.J. McKay and his best friend Bear. He just keeps on movin', ladies keep improvin', every day is better than the last. New dreams and better scenes, and best of all I don't pay property tax. 
+</p>
+</section>
+
+<section class="announce">
+<div class="h2-layout">
+<h2>Beware stupid cats!</h2>
+</div>
+<section class="date-com">
+<span class="date">
+11 july, 2014
+</span>
+</section>
+<figure class="floater">
+<img class="blogpost-pic" src="img/ano1.png" alt="cotya">
+</figure>
+<p>
+This is my boss, Jonathan Hart, a self-made millionaire, he's quite a guy. This is Mrs H., she's gorgeous, she's one lady who knows how to take care of herself. By the way, my name is Max. I take care of both of them, which ain't easy, 'cause when they met it was MURDER!
+</p>
+</section>
+
+
+<section class="blogpost bp-left">
  <div class="h2-layout">
 
   <h2>What's going on</h2>
   </div>
    <figure>
-  <img  class="blogpost-pic" src="img/im1.png"/>
+  <img  class="blogpost-pic" src="img/bp1.png"/>
  </figure>
  <h3> What can possibly go wrong?</h3>
  <section class="date-com">
- <span id="date"><script src="kuku.js"></script></span>
- <span> comments</span>
+ <span class="date"><script src="kuku.js"></script></span>
+ <span><a href="">comments</a></span>
  </section>
  
- <p> All code belongs to the poster and no license is enforced.
-
-JSFiddle or its authors are not responsible or liable for any loss or damage of any kind during the usage of provided code.
+ <p> Knight Rider, a shadowy flight into the dangerous world of a man who does not exist. Michael Knight, a young loner on a crusade to champion the cause of the innocent.
 </p>
 </section>
 
 <section class="blogpost">
  <div class="h2-layout">
 
-  <h2>What's going on</h2>
+  <h2>Silly Willy!</h2>
   </div>
    <figure>
-  <img  class="blogpost-pic" src="img/im1.png"/>
+  <img  class="blogpost-pic" src="img/bp2.png"/>
  </figure>
- <h3> What can possibly go wrong?</h3>
+ <h3> Neverhide!</h3>
  <section class="date-com">
- <span id="date"><script src="kuku.js"></script></span>
- <span> comments</span>
+ <span class="date"><script src="kuku.js"></script></span>
+ <span><a href=""> comments</a></span>
  </section>
  
- <p> All code belongs to the poster and no license is enforced.
-
-JSFiddle or its authors are not responsible or liable for any loss or damage of any kind during the usage of provided code.
+ <p> 80 days around the world, we'll find a pot of gold just sitting where the rainbow's ending. 
 </p>
 </section>
 
-<section class="blogpost">
+<section class="blogpost bp-left">
  <div class="h2-layout">
 
-  <h2>What's going on</h2>
+  <h2>Top cat!</h2>
   </div>
    <figure>
-  <img  class="blogpost-pic" src="img/im1.png"/>
+  <img  class="blogpost-pic" src="img/bp3.png"/>
  </figure>
- <h3> What can possibly go wrong?</h3>
+ <h3> Strange days</h3>
  <section class="date-com">
  <span id="date"><script src="kuku.js"></script></span>
- <span> comments</span>
+ <span> <a href=""> comments</a></span>
  </section>
  
- <p> All code belongs to the poster and no license is enforced.
-
-JSFiddle or its authors are not responsible or liable for any loss or damage of any kind during the usage of provided code.
+ <p> Top Cat! The most effectual Top Cat! Who's intellectual close friends get to call him T.C., providing it's with dignity. Top Cat! 
 </p>
 </section>
 
-<section class="blogpost">
+<section class="blogpost ">
  <div class="h2-layout">
 
-  <h2>What's going on</h2>
+  <h2>Curves are important</h2>
   </div>
    <figure>
-  <img  class="blogpost-pic" src="img/im1.png"/>
+  <img  class="blogpost-pic" src="img/bp4.png"/>
  </figure>
- <h3> What can possibly go wrong?</h3>
+ <h3> The investigation</h3>
  <section class="date-com">
- <span id="date"><script src="kuku.js"></script></span>
- <span> comments</span>
+ <span class="date"><script src="kuku.js"></script></span>
+ <span><a href=""> comments</a></span>
  </section>
  
- <p> All code belongs to the poster and no license is enforced.
-
-JSFiddle or its authors are not responsible or liable for any loss or damage of any kind during the usage of provided code.
+ <p> Just the good ol' boys, never meanin' no harm. Beats all you've ever saw, been in trouble with the law since the day they was born. Straight'nin' the curve.
 </p>
 </section>
+
+<section class="announce">
+<div class="h2-layout">
+<h2>This is a public service announcement</h2>
+</div>
+<section class="date-com">
+<span class="date">
+28 july, 2014
+</span>
+<p> Hi there! Here some kittens for you:3 Enjoy!</p>
+ <iframe width="560" height="315" src="http://www.youtube.com/embed/8XuqF9mZKiw?list=PLgMaGEI-ZiiZ0ZvUtduoDRVXcU5ELjPcI" frameborder="0" allowfullscreen></iframe>
+</section>
+
+
+
+
 </main>
 
 </div>
+
+
+
+
+
+
 <footer>
 <section class="downmenu">
   <div class="layout">
 
-   <div class="logo_ft"><span class="logo">Bramble</span></div>
-   <div class="rubber"  class="clearfix">
-   <div class="recent_ft" id="spanish">  
-   <div id="h2-layout-ft">
+   <div class="logo_ft"><span class="logo"><a href="index.html">Bramble</a></span></div>
+   <div class="rubber">
+   <div class="recent_ft">  
+   <div class="h2-layout-ft">
    <h2>Recent posts</h2>
-   </h2>
-   </div>
-   <span>Recent post#1</span>
-   <span>Recent post#2</span>
-   <span>Recent post#3</span>
-   <span>Recent post#4</span>
-   <span>Recent post#5</span>
+      </div>
+   <a href=""><span>Beware Stupid Cats!</span></a>
+   <a href=""><span>Silly Willy</span></a>
+   <a href=""><span>What's going on?</span></a>
+   <a href=""><span>Top cat!</span></a>
+   <a href=""><span>Curves are important</span></a>
    </div>
  
-    <div class="about_ft" id="spanish">
-	   <div id="h2-layout-ft">
+    <div class="about_ft">
+	   <div class="h2-layout-ft">
 	<h2>About Bramble </h2>
     </div>
-	<p>Текст в несколько колонок давно уже применяется в издательском деле при вёрстке газет, журналов и книг. Человеку комфортнее читать текст определённой ширины, колонки как раз и обеспечивают разбиение большого текста на столбцы заданного размера. На сайтах это не всегда имеет смысл делать из-за ограниченности высоты окна браузера. Читателю вначале придётся прокрутить одну колонку вниз до конца, а затем вернуться наверх к началу следующей колонки, что довольно неудобно. 
+	<p>Thunder, thunder, thundercats, Ho! Thundercats are on the move, Thundercats are loose. Feel the magic, hear the roar, Thundercats are loose. Thunder, thunder, thunder, Thundercats! Thunder, thunder, thunder, Thundercats! Thunder, thunder, thunder, Thundercats! Thunder, thunder, thunder, Thundercats! Thundercats!
+	</p>
+	<p>Knight Rider, a shadowy flight into the dangerous world of a man who does not exist. Michael Knight, a young loner on a crusade to champion the cause of the innocent, the helpless in a world of criminals who operate above the law.
 		</p>
 	</div>
 
-    <div class="comments_ft" id="spanish">
-	   <div id="h2-layout-ft">
-	   <h2>Coments</h2>
+    <div class="comments_ft">
+	   <div class="h2-layout-ft">
+	   <h2>Comments</h2>
 	   </div>
-	<span>Recent comment#1 by <a href="">James</a></span>
-   <span>Recent comment#1 by <a href="">Lars</a></span>
-   <span>Recent comment#1 by <a href="">Kirk</a></span>
-   <span>Recent comment#1 by <a href="">Jamie</a></span>
-   <span>Recent comment#1 by <a href="">Gnarls</a></span>
+	<span><a href="">80 days around the world</a> by <a href="">James</a></span>
+   <span><a href="">Top cat!</a> by <a href="">Lars</a></span>
+   <span><a href="">Silly Willy!</a> by <a href="">Kirk</a></span>
+   <span><a href="">80 days around the world</a> by <a href="">Jamie</a></span>
+   <span><a href="">Top cat!</a> by<a href="">Gnarls</a></span>
    
 	
 	</div>
@@ -190,6 +389,8 @@ JSFiddle or its authors are not responsible or liable for any loss or damage of 
   </div>
 </section>
 <address>
+<a href="mailto:inlovewithcookies@mail.ru?Subject=Hire%20me!">Contact us!</a>
+<span>&#169 Bramble inc., 2014<span>
 </address>
 </footer>
 </div>
